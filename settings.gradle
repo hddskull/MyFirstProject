@@ -16,3 +16,4 @@ rootProject.name = "MyFirstProjects"
 include ':app'
 include ':app1'
 include ':app2'
+include ':forpractice'
