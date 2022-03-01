@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Много разметок одной активности</string>
+    <string name="vertical">Вертикальное положение экрана</string>
+    <string name="horizontal">Горизонтальное положение экрана</string>
+    <string name="night">Горизонтальное положение экрана</string>
+    <string name="textView">Cum</string>
+</resources>
