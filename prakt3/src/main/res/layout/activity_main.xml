@@ -3,118 +3,89 @@
     android:id="@+id/verticalTable"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
         <TableRow
-            android:background="@color/white"
-            android:minHeight="20dp">
+            android:background="@color/white">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Вертикальное положение экрана"
+                    style="@style/textViewStyle"
+                    android:text="@string/vertical"
+                    />
+        </TableRow>
+        <TableRow
+            style="@style/layoutStyleV"
+            android:background="@color/red">
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:text="Каждый"
                     android:textSize="24dp"
-                    android:textColor="@android:color/red"
+                    android:textColor="@android:color/primary_text_light"
                     android:gravity="center"/>
         </TableRow>
         <TableRow
-            android:background="@color/blue"
-            android:minHeight="60dp">
+            style="@style/layoutStyleV"
+
+            android:background="@color/orange">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
                     android:text="Каждый"
                     android:textSize="24dp"
-                    android:textColor="@android:color/primary_text_dark"
+                    android:textColor="@android:color/primary_text_light"
                     android:gravity="center"/>
         </TableRow>
         <TableRow
-            android:background="@color/blue"
-            android:minHeight="60dp">
+            style="@style/layoutStyleV"
+            android:background="@color/yellow">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
                     android:text="Каждый"
                     android:textSize="24dp"
-                    android:textColor="@android:color/primary_text_dark"
+                    android:textColor="@android:color/primary_text_light"
                     android:gravity="center"/>
         </TableRow>
         <TableRow
-            android:background="@color/blue"
-            android:minHeight="60dp">
+            style="@style/layoutStyleV"
+            android:background="@color/green">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
                     android:text="Каждый"
                     android:textSize="24dp"
-                    android:textColor="@android:color/primary_text_dark"
+                    android:textColor="@android:color/primary_text_light"
                     android:gravity="center"/>
         </TableRow>
         <TableRow
-            android:background="@color/blue"
-            android:minHeight="60dp">
+            style="@style/layoutStyleV"
+            android:background="@color/azure">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
                     android:text="Каждый"
                     android:textSize="24dp"
-                    android:textColor="@android:color/primary_text_dark"
+                    android:textColor="@android:color/primary_text_light"
                     android:gravity="center"/>
         </TableRow>
         <TableRow
-            android:background="@color/blue"
-            android:minHeight="60dp">
+            style="@style/layoutStyleV"
+            android:background="@color/blue">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
                     android:text="Каждый"
                     android:textSize="24dp"
-                    android:textColor="@android:color/primary_text_dark"
+                    android:textColor="@android:color/primary_text_light"
                     android:gravity="center"/>
         </TableRow>
         <TableRow
-            android:background="@color/blue"
-            android:minHeight="60dp">
+            style="@style/layoutStyleV"
+            android:background="@color/violet">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
                     android:text="Каждый"
                     android:textSize="24dp"
-                    android:textColor="@android:color/primary_text_dark"
+                    android:textColor="@android:color/primary_text_light"
                     android:gravity="center"/>
         </TableRow>
-        <TableRow
-            android:background="@color/blue"
-            android:minHeight="60dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Каждый"
-                    android:textSize="24dp"
-                    android:textColor="@android:color/primary_text_dark"
-                    android:gravity="center"/>
-        </TableRow>
-        <TableRow
-            android:background="@color/blue"
-            android:minHeight="60dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Каждый"
-                    android:textSize="24dp"
-                    android:textColor="@android:color/primary_text_dark"
-                    android:gravity="center"/>
-        </TableRow>
+
 
 </TableLayout>

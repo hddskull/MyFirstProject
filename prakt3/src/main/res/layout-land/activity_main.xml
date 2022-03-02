@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    style="@style/textViewStyle"
+    android:text="@string/vertical"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/layoutStyleH">
+        <TextView
+            style="@style/layoutStyleH"
+            android:background="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            style="@style/layoutStyleH"
+            android:background="@color/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            style="@style/layoutStyleH"
+            android:background="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            style="@style/layoutStyleH"
+            android:background="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            style="@style/layoutStyleH"
+            android:background="@color/azure"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            style="@style/layoutStyleH"
+            android:background="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            style="@style/layoutStyleH"
+            android:background="@color/violet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>
