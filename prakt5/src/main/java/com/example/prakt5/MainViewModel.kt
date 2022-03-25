@@ -7,6 +7,7 @@ class MainViewModel : ViewModel() {
     val number = MutableLiveData<String>()
 
     fun onRandomClicked() {
-        number.value = (0..50).random().toString()
+        RandomNumber.setNumber()
+        number.value = RandomNumber.getNumber()
     }
 }
