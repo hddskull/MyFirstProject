@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+    </data>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Стороны прямоугольного параллелипипида"/>
+        <TextView
+            android:id="@+id/sideALabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a = "/>
+        <EditText
+            android:id="@+id/sideA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+        <TextView
+            android:id="@+id/sideBLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b = "/>
+        <EditText
+            android:id="@+id/sideB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+        <TextView
+            android:id="@+id/sideCLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c = "/>
+        <EditText
+            android:id="@+id/sideC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/getSolution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Найти"/>
+        <TextView
+            android:id="@+id/solution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</layout>
