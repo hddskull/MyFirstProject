@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UI elements</string>
+    <string name="checkBox">Check</string>
+    <string name="radioButton1">Radio Button 1</string>
+    <string name="radioButton2">Radio Button 2</string>
+    <string name="show">Show</string>
+    <string name="textViewtext">Some Text</string>
+</resources>
